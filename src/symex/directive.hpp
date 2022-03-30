@@ -67,7 +67,7 @@ namespace vtil::python
 					// .def( py::self & py::self )
 					// .def( py::self ^ py::self )
 					.def( py::self * py::self )
-					//.def( py::self * int64_t() )
+					.def( py::self * int64_t() )
 					// .def( py::self / py::self )
 					// .def( py::self % py::self )
 
